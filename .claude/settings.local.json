@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npx create-next-app@latest . --typescript --eslint --app --no-src-dir --no-tailwind --import-alias \"@/*\")",
       "Bash(npx create-next-app@latest _scaffold --typescript --eslint --app --no-src-dir --no-tailwind --import-alias \"@/*\")",
-      "Bash(npx create-next-app@latest scaffold --typescript --eslint --app --no-src-dir --no-tailwind --import-alias \"@/*\")"
+      "Bash(npx create-next-app@latest scaffold --typescript --eslint --app --no-src-dir --no-tailwind --import-alias \"@/*\")",
+      "Bash(ls -la /c/Users/alexc/Documents/mywebsite/.*)"
     ]
   }
 }

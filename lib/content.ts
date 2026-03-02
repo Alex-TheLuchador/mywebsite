@@ -7,7 +7,7 @@ export const content = {
   about: {
     name: 'Alex Hernandez',
     title: 'AI Engineer',
-    bio: '[Placeholder — update with your bio]',
+    bio: 'Born in Houston, Texas and currently based in Orange County, California, I\'m an AI engineer certified by Microsoft.',
   },
 
   services: {

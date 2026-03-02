@@ -114,12 +114,12 @@ export default function TerminalShell() {
     [state.pendingConfirmation]
   );
 
-  // Clicking anywhere on the background re-focuses the input
-  const handleBackgroundClick = () => inputRef.current?.focus();
+  // Clicking anywhere refocuses the input
+  const handleClick = () => inputRef.current?.focus();
 
   return (
-    <div className={styles.background} onClick={handleBackgroundClick}>
-      <div className={styles.panel} onClick={(e) => e.stopPropagation()}>
+    <div className={styles.background} onClick={handleClick}>
+      <div className={styles.panel} onClick={handleClick}>
         <div className={styles.titleBar}>
           <span className={styles.titleText}>visitor@portfolio:~$</span>
           <span className={styles.titleMeta}>L{state.history.length + 1}</span>

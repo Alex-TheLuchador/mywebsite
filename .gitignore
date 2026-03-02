@@ -1,5 +1,6 @@
 # Claude project instructions — not for public repos
 CLAUDE.md
+.claude/
 
 # dependencies
 /node_modules

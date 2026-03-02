@@ -13,19 +13,64 @@
   white-space: nowrap;
 }
 
-.input {
+.inputWrapper {
   flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Real input — invisible but receives focus and keystrokes */
+.input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
   background: transparent;
   border: none;
   outline: none;
-  color: var(--color-phosphor);
+  color: transparent;
+  caret-color: transparent;
   font-family: var(--font-mono);
   font-size: 1.15rem;
-  caret-color: var(--color-phosphor);
   line-height: 1.45;
+  z-index: 1;
 }
 
 .input:disabled {
-  opacity: 0.4;
   cursor: not-allowed;
+}
+
+/* Visible text + cursor overlay */
+.display {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  line-height: 1.45;
+  color: var(--color-phosphor);
+  pointer-events: none;
+  white-space: pre;
+  min-height: 1.45em;
+}
+
+.display:has(~ .input:disabled) {
+  opacity: 0.4;
+}
+
+.inputWrapper:has(.input:disabled) .display {
+  opacity: 0.4;
+}
+
+@keyframes cursorBlink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.cursor {
+  display: inline-block;
+  width: 0.6em;
+  height: 1.1em;
+  background: var(--color-phosphor);
+  animation: cursorBlink 1s step-end infinite;
+  vertical-align: text-bottom;
 }
