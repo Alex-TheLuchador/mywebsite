@@ -1,0 +1,78 @@
+.background {
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: text;
+}
+
+.panel {
+  width: var(--terminal-width);
+  height: var(--terminal-height);
+  background-color: var(--color-terminal-bg);
+  border: 2px solid var(--color-terminal-border);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  cursor: default;
+
+  /* Subtle lift — much flatter than before, closer to the reference image */
+  transform: perspective(2000px) rotateX(1deg);
+  box-shadow:
+    0 0 0 4px rgba(106, 170, 106, 0.15),
+    0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.titleBar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 10px;
+  border-bottom: 1px solid var(--color-terminal-border);
+  background-color: var(--color-bar-bg);
+}
+
+.titleText {
+  font-size: 1rem;
+  color: var(--color-bar-text);
+  user-select: none;
+}
+
+.titleMeta {
+  font-size: 1rem;
+  color: var(--color-phosphor-dim);
+  user-select: none;
+}
+
+.statusBar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 10px;
+  border-top: 1px solid var(--color-terminal-border);
+  background-color: var(--color-bar-bg);
+}
+
+.statusLeft {
+  display: flex;
+  gap: 16px;
+}
+
+.statusChip {
+  font-size: 1rem;
+  color: var(--color-bar-text);
+  background-color: rgba(200, 240, 200, 0.12);
+  padding: 0 6px;
+  user-select: none;
+}
+
+.statusRight {
+  font-size: 1rem;
+  color: var(--color-phosphor-dim);
+  user-select: none;
+}

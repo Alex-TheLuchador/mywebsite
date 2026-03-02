@@ -1,0 +1,46 @@
+.container {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-terminal-border) transparent;
+}
+
+.line {
+  font-size: 1.15rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.input {
+  color: var(--color-phosphor-dim);
+}
+
+.output {
+  color: var(--color-phosphor);
+}
+
+.error {
+  color: var(--color-amber);
+}
+
+.system {
+  color: var(--color-phosphor);
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.link {
+  color: var(--color-phosphor);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.link:hover {
+  color: var(--color-amber);
+}

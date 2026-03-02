@@ -1,0 +1,58 @@
+:root {
+  /* Background: medium sage green matching the reference image */
+  --color-bg: #4a6741;
+
+  /* Terminal panel interior */
+  --color-terminal-bg: #1a2e1a;
+
+  /* Phosphor text — bright, readable green */
+  --color-phosphor: #c8f0c8;
+  --color-phosphor-dim: #7ab87a;
+
+  /* Accent / errors */
+  --color-amber: #f0c040;
+
+  /* Panel chrome */
+  --color-terminal-border: #6aaa6a;
+  --color-bar-bg: #2d4a2d;
+  --color-bar-text: #c8f0c8;
+
+  --font-mono: 'VT323', 'Courier New', monospace;
+  --terminal-width: min(900px, 94vw);
+  --terminal-height: min(600px, 88vh);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-mono);
+  color: var(--color-phosphor);
+}
+
+/* Remove default focus ring — terminal input has its own visual style */
+*:focus {
+  outline: none;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

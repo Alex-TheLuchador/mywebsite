@@ -1,0 +1,29 @@
+# Claude project instructions — not for public repos
+CLAUDE.md
+
+# dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# environment files
+.env
+.env.local
+.env.*.local
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# editor directories
+.vscode/
+.idea/
+
+# debug logs
+npm-debug.log*
+
+# Amplify local config
+amplify/.config/local-*
+amplify/logs
