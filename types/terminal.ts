@@ -3,6 +3,7 @@ export interface OutputLine {
   type: 'input' | 'output' | 'error' | 'system';
   content: string;
   href?: string; // if set, content renders as an <a> tag
+  commandRow?: { name: string; description: string }; // if set, renders as two-column help row
 }
 
 export interface ConfirmationContext {

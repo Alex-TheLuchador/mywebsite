@@ -17,7 +17,8 @@ export const helpCommand: Command = {
       lines.push({
         id: crypto.randomUUID(),
         type: 'output',
-        content: `  ${command.name.padEnd(16)} ${command.description}`,
+        content: '',
+        commandRow: { name: command.name, description: command.description },
       });
     }
 

@@ -20,7 +20,12 @@ export default function TerminalOutput({ lines }: Props) {
     <div className={styles.container}>
       {lines.map((line) => (
         <div key={line.id} className={`${styles.line} ${styles[line.type]}`}>
-          {line.href ? (
+          {line.commandRow ? (
+            <span className={styles.commandRow}>
+              <span className={styles.commandName}>{line.commandRow.name}</span>
+              <span className={styles.commandDesc}>{line.commandRow.description}</span>
+            </span>
+          ) : line.href ? (
             <a href={line.href} target="_blank" rel="noopener noreferrer" className={styles.link}>
               {line.content}
             </a>

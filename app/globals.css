@@ -19,7 +19,7 @@
 
   --font-mono: 'VT323', 'Courier New', monospace;
   --terminal-width: min(900px, 94vw);
-  --terminal-height: min(600px, 88vh);
+  --terminal-height: min(750px, 88vh);
 }
 
 *,

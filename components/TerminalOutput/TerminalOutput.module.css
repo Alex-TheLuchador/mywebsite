@@ -44,3 +44,17 @@
 .link:hover {
   color: var(--color-amber);
 }
+
+.commandRow {
+  display: flex;
+  gap: 1rem;
+  padding-left: 0.5rem;
+}
+
+.commandName {
+  flex: 0 0 10rem;
+}
+
+.commandDesc {
+  flex: 1;
+}

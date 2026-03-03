@@ -14,8 +14,8 @@ export const resumeCommand: Command = {
     confirmation: {
       onConfirm: () => {
         const anchor = document.createElement('a');
-        anchor.href = '/resume.pdf';
-        anchor.download = 'resume.pdf';
+        anchor.href = '/Alex Hernandez Resume.pdf';
+        anchor.download = 'Alex Hernandez Resume.pdf';
         anchor.click();
       },
       onCancel: () => {},
