@@ -56,9 +56,7 @@ export const content = {
     body: `
     Enterprise-Grade AI Tailored to You.
 
-Most AI automation tools are built for companies with 10,000 employees and a dedicated IT department.
-
-You've probably felt that gap: the tools exist, but none of them were designed with you in mind.
+Most AI automation tools are built for companies with 10,000 employees and a dedicated IT department. You've probably felt that gap: the tools exist, but none of them were designed with you in mind.
 
 I'm Alex H, a Microsoft Azure Certified AI Engineer who has built and deployed automation systems for some of the world's largest organizations. Now I work exclusively with small businesses and solopreneurs to give them the same competitive edge without the unnecessary complexity, the bloated timelines, or the jargon.
 
@@ -66,16 +64,6 @@ What that means for you:
 
 Every workflow I build is custom. No cookie-cutter templates. No off-the-shelf software you could have bought yourself. 
 I analyze how your business actually operates, identify where you're leaking time and money, and engineer an AI solution that slots directly into your existing tools and processes.
-
-My Services Include:
-
-- AI Workflow Automation
-  - Eliminate repetitive, manual tasks that are eating your week
-- CRM & Sales Pipeline Automation — Never let a lead go cold again
-- AI-Powered Customer Communication — Respond faster, sound better, scale your voice
-- Document & Reporting Automation — Proposals, invoices, and summaries generated in seconds
-- Custom GPT & Chatbot Build-Outs — AI trained on your business, not the whole internet
-- Systems Audit & AI Roadmap — Not sure where to start? I'll map it out for you
 
 Ready to start gaining back time, your most valuable asset?
 
@@ -86,16 +74,16 @@ Book a Free 30-Minute Audit.
   // ─── Terminal: certifications ─────────────────────────────────────────────────
 
   certifications: {
-    details: '[Placeholder — add your certification name and details here]',
-    verificationUrl: 'https://learn.microsoft.com/en-us/users/[your-profile]/credentials',
+    details: 'Microsoft Certified: Azure AI Engineer (AI-102)',
+    verificationUrl: 'https://learn.microsoft.com/api/credentials/share/en-us/AlexHernandez-47/7FF3CF151DC95616?sharingId=70FEFE9A49B54589',
     verificationLabel: 'Verify on Microsoft Learn',
   },
 
   // ─── External links ───────────────────────────────────────────────────────────
 
   links: {
-    github: 'https://github.com/[your-handle]',
-    linkedin: 'https://linkedin.com/in/[your-handle]',
+    github: 'https://github.com/Alex-TheLuchador',
+    linkedin: 'https://www.linkedin.com/in/itsalexh/',
   },
 
 };
