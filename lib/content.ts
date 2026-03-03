@@ -31,11 +31,14 @@ export const content = {
       'machine learning engineer',
       'LLM integration',
       'AI automation',
+      'AI integration',
+      'AI for small businesses',
+      'AI for businesses',
       'Orange County AI engineer',
       'Southern California AI consultant',
       'Microsoft certified AI',
     ],
-    siteUrl: 'https://yourdomain.com', // ← update with your real domain
+    siteUrl: 'https://hernandezalex.dev', // ← update with your real domain
   },
 
   // ─── Terminal: about ─────────────────────────────────────────────────────────
@@ -50,7 +53,34 @@ export const content = {
   // Also rendered as hidden crawlable text for SEO — keep it substantive.
 
   services: {
-    body: '[Placeholder — describe your AI engineering work and services here]',
+    body: `
+    Enterprise-Grade AI Tailored to You.
+
+Most AI automation tools are built for companies with 10,000 employees and a dedicated IT department.
+
+You've probably felt that gap: the tools exist, but none of them were designed with you in mind.
+
+I'm Alex H, a Microsoft Azure Certified AI Engineer who has built and deployed automation systems for some of the world's largest organizations. Now I work exclusively with small businesses and solopreneurs to give them the same competitive edge without the unnecessary complexity, the bloated timelines, or the jargon.
+
+What that means for you:
+
+Every workflow I build is custom. No cookie-cutter templates. No off-the-shelf software you could have bought yourself. 
+I analyze how your business actually operates, identify where you're leaking time and money, and engineer an AI solution that slots directly into your existing tools and processes.
+
+My Services Include:
+
+- AI Workflow Automation
+  - Eliminate repetitive, manual tasks that are eating your week
+- CRM & Sales Pipeline Automation — Never let a lead go cold again
+- AI-Powered Customer Communication — Respond faster, sound better, scale your voice
+- Document & Reporting Automation — Proposals, invoices, and summaries generated in seconds
+- Custom GPT & Chatbot Build-Outs — AI trained on your business, not the whole internet
+- Systems Audit & AI Roadmap — Not sure where to start? I'll map it out for you
+
+Ready to start gaining back time, your most valuable asset?
+
+Book a Free 30-Minute Audit.
+    `,
   },
 
   // ─── Terminal: certifications ─────────────────────────────────────────────────
