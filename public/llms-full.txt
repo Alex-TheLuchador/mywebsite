@@ -1,0 +1,91 @@
+# Alex Hernandez — Full Profile
+
+> Senior Systems Engineer & Cloud Engineer | Orange County, CA | hernandezalex.dev
+
+## Summary
+
+Cloud infrastructure and AI engineer with 7+ years of experience architecting and operating distributed systems at enterprise scale. Expert in designing cost-efficient, high-performance data platforms processing TB-scale workloads. Proven track record reducing infrastructure costs $1.2M annually while improving system reliability. Strong foundation in Python, Infrastructure-as-Code, and cloud-native architecture across Azure and AWS. Skilled at translating complex technical requirements into scalable solutions and partnering with C-level stakeholders to drive business value through technology.
+
+Titles held: Senior Systems Engineer, Cloud Engineer, Cloud Infrastructure Engineer.
+Location: Orange County, California.
+Available for: AI consulting, cloud engineering, LLM integration, automation.
+
+## Professional Experience
+
+### Big 5 Global Consulting Firm — Senior Systems Engineer
+February 2023 – Present
+
+- Architected multi-tenant cloud data platform processing 10TB/day across Azure Synapse, Databricks, and Palantir Foundry, serving 50+ enterprise clients with 99.95% uptime and <5min P99 query latency
+- Reduced infrastructure costs $1.2M annually (32% reduction) by implementing Infrastructure-as-Code with ARM/Bicep templates, automating 80% of resource provisioning workflows and eliminating manual configuration drift
+- Engineered real-time ETL pipelines using Python and PySpark processing 500GB/hour, achieving 5x throughput improvement over prior Hadoop-based implementation
+- Improved mean time to resolution 47% (8.5 to 4.5 hours) by building automated incident response runbooks; reduced P1 production incidents from 12 to 6 per month
+- Led technical architecture and delivery for $500K+ data platform implementations, partnering with C-level stakeholders to translate business requirements into scalable distributed systems
+- Designed and implemented data governance policies, access controls, and compliance frameworks across multi-cloud environments supporting Fortune 500 clients
+- Delivered technical presentations and strategic discovery sessions to executive audiences, driving adoption of AI/ML and data engineering solutions
+
+### Healthcare Technology Firm — Cloud Systems Administrator
+September 2021 – February 2023
+
+- Managed cloud infrastructure for 1,000+ users across Azure and AWS, maintaining 99.9% availability for machine learning and analytics platforms
+- Built Python-based automation framework for infrastructure provisioning and CI/CD pipelines, reducing deployment time from 4 hours to 15 minutes (3x faster feature delivery)
+- Designed cloud-native data workflows with optimized cost structure, reducing monthly infrastructure spend 25% while scaling to support 2x user growth
+- Deployed ML model serving infrastructure on Azure ML, achieving <100ms inference latency at 10K requests/day with automated scaling and monitoring
+- Reduced support escalations 40% through technical training and comprehensive platform documentation
+- Administered and maintained cloud systems across enterprise environments
+- Managed infrastructure, access controls, and system reliability for business operations
+
+## Technical Skills
+
+### Programming & Development
+- Languages: Python (7+ years, expert), SQL (expert), PowerShell, Bash
+- Data Engineering: Apache Spark/PySpark, ETL design and optimization, data modeling, query performance tuning
+- Practices: Git/GitHub, code review, automated testing, CI/CD pipeline development
+
+### Cloud Infrastructure
+- Azure (expert): compute, storage, networking, security, data services
+- AWS (proficient): EC2, S3, Lambda, VPC, IAM
+- Infrastructure-as-Code: ARM templates, Bicep, Terraform, CloudFormation
+- Containers: Docker, Kubernetes, ECS/EKS
+- DevOps: GitHub Actions, Azure DevOps, infrastructure automation, deployment orchestration
+
+### Data Platforms & Databases
+- Data platforms: Databricks (Apache Spark), Palantir Foundry, Azure Synapse Analytics, Amazon Redshift
+- Databases: PostgreSQL, MySQL, SQL Server, MongoDB, Redis
+- Data processing: batch processing, real-time streaming, pipeline orchestration, data quality validation
+
+### System Design & Architecture
+- Distributed systems: multi-tenant architecture, high availability, fault tolerance, scalability patterns
+- Microservices: REST/GraphQL API design, service-to-service communication, event-driven architectures
+- Performance optimization: system profiling, bottleneck identification, capacity planning, cost optimization
+- Observability: monitoring, alerting, distributed tracing, logging, incident response
+
+### AI/ML Infrastructure
+- Azure ML, model deployment and serving, inference optimization, ML workflow orchestration
+- LLM integration and AI automation
+- Microsoft Certified: Azure AI Engineer (AI-102)
+
+### Security & Compliance
+- Cloud security best practices, IAM policies, data encryption
+- Compliance frameworks, data governance implementation
+
+## Certifications
+
+- Microsoft Certified: Azure AI Engineer (AI-102)
+- Microsoft Certified: Azure Fundamentals (AZ-900)
+- Microsoft Certified: Azure Administrator Associate (AZ-104, previously held)
+
+## Services
+
+Available for consulting and freelance engagements:
+- AI integration and LLM solutions for businesses of all sizes
+- Cloud infrastructure architecture, migration, and optimization
+- Data platform engineering
+- Infrastructure-as-Code and DevOps automation
+- Infrastructure cost optimization audits
+
+## Links
+
+- Website: https://hernandezalex.dev
+- LinkedIn: https://www.linkedin.com/in/itsalexh/
+- GitHub: https://github.com/Alex-TheLuchador
+- Resume: https://hernandezalex.dev/Alex%20Hernandez%20Resume.pdf

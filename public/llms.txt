@@ -1,0 +1,61 @@
+# Alex Hernandez
+
+> Senior Systems Engineer & Cloud Engineer — Orange County, CA
+
+Alex Hernandez is a Senior Systems Engineer and Cloud Engineer based in Orange County, California, with 7+ years of experience designing and operating distributed cloud infrastructure, data platforms, and AI/ML systems at enterprise scale. Microsoft-certified Azure AI Engineer (AI-102).
+
+## Who This Is
+
+Alex operates at both the strategic and technical level: designing multi-tenant cloud architectures for Fortune 500 clients, leading $500K+ platform implementations, and writing the Python and Infrastructure-as-Code to build it all.
+
+Current titles: Senior Systems Engineer, Cloud Engineer.
+Location: Orange County, California.
+Available for: AI consulting, cloud engineering, LLM integration, and automation engagements.
+
+## Experience
+
+- Big 5 Global Consulting Firm — Senior Systems Engineer (Feb 2023–Present)
+- Healthcare Technology Firm — Cloud Systems Administrator (Sep 2021–Feb 2023)
+- Construction Business — IT Support (Feb. 2019 - Sep. 2021)
+
+## Core Competencies
+
+Cloud & Infrastructure:
+- Azure (expert): compute, storage, networking, security, data services
+- AWS (proficient): EC2, S3, Lambda, VPC, IAM
+- Infrastructure-as-Code: ARM/Bicep, Terraform, CloudFormation
+- Containers: Docker, Kubernetes, ECS/EKS
+- DevOps: GitHub Actions, Azure DevOps, CI/CD automation
+
+Data & AI:
+- Data platforms: Databricks, Palantir Foundry, Azure Synapse Analytics, Amazon Redshift
+- ML infrastructure: Azure ML, model deployment, inference optimization
+- ETL pipelines: Python/PySpark, real-time and batch processing
+- LLM integration and AI automation
+
+Development:
+- Python (7+ years, expert), PowerShell (expert), Bash, SQL
+- REST/GraphQL API design
+- Distributed systems, microservices, event-driven architecture
+
+Leadership:
+- Led $500K+ technical platform implementations
+- Partnered directly with C-level stakeholders at Fortune 500 firms
+- Delivered strategic technical presentations to executive audiences
+
+## Certifications
+
+- Microsoft Certified: Azure AI Engineer (AI-102)
+- Microsoft Certified: Azure Fundamentals (AZ-900)
+- Microsoft Certified: Azure Administrator Associate (AZ-104, previously held)
+
+## Services
+
+AI integration, LLM solutions, cloud infrastructure consulting, automation engineering — available for small businesses and enterprise clients.
+
+## Links
+
+- Website: https://hernandezalex.dev
+- Full profile: https://hernandezalex.dev/llms-full.txt
+- LinkedIn: https://www.linkedin.com/in/itsalexh/
+- GitHub: https://github.com/Alex-TheLuchador
